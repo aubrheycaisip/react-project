@@ -1,0 +1,18 @@
+.profileName{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.profileName img{
+    width: 80px;
+    border-style: dashed;
+    border-radius: 50%;
+}
+.profileName h2{
+    margin-left: 20px;
+}
+
+.profileInfo{
+    margin-top: 15px;
+    line-height: 1.5;
+}

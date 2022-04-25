@@ -1,0 +1,33 @@
+.home{
+    min-height: 100vh;
+    /* color: #ffffff; */
+    color: #151516;
+    display: flex;
+    /* max-width: 122vh; */
+    /* #e0e2e5 */
+    margin-top: 45px;
+    padding-top: 16px;
+}
+
+.column{
+    float:left;
+    padding: 3px 7px;
+}
+.left, .right{
+    width: 30%;
+}
+.middle{
+    width: 40%;
+}
+.content{
+    background-color: #ffffff;
+    padding: 24px 16px;
+    border-radius: 9px;
+    margin-bottom: 20px;
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 20%);
+}
+.home:after{
+    content: "";
+    display: table;
+    clear: both;
+}
